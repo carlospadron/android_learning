@@ -25,6 +25,10 @@ import happybirthday.composeapp.generated.resources.Res
 import happybirthday.composeapp.generated.resources.androidparty
 import happybirthday.composeapp.generated.resources.compose_multiplatform
 import androidx.compose.ui.layout.ContentScale
+import happybirthday.composeapp.generated.resources.happy_birthday_text
+import happybirthday.composeapp.generated.resources.signature_text
+import org.jetbrains.compose.resources.getString
+import org.jetbrains.compose.resources.stringResource
 
 @Composable
 @Preview
@@ -51,8 +55,8 @@ fun App() {
             Box(Modifier) {
                 GreetingImage()
                 GreetingText(
-                    "Happy Birthday Sam!",
-                    "From: Compose"
+                    message = stringResource(Res.string.happy_birthday_text),
+                    from = stringResource(Res.string.signature_text)
                 )
 
             }
