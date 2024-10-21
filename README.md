@@ -6,6 +6,6 @@
 - Be sure you use folder composeapp and graddle project
 
 # Status
-Currently at Unit 1, Pathway 3:
-    https://developer.android.com/courses/pathways/android-basics-compose-unit-1-pathway-3
-    practrice compose basics
+Currently at Unit 2, Pathway 2:
+    https://developer.android.com/courses/pathways/android-basics-compose-unit-2-pathway-2
+    Create an interactive Dice Roller app
