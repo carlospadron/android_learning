@@ -9,3 +9,7 @@
 Currently at Unit 2, Pathway 2:
     https://developer.android.com/courses/pathways/android-basics-compose-unit-2-pathway-2
     Create an interactive Dice Roller app
+
+# Notes
+- sqldelight does not work for wasm - api is required
+- not all libraries work on multiplatform
